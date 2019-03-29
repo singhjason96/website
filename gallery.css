@@ -1,0 +1,149 @@
+.gallery-title {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+.back {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back-pic {
+    background-image: url('https://cognigen-cellular.com/images/polaroid-clipart-candy-tumblr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+body {
+  background-color: #f26d7d;
+  margin: 0;
+}
+
+.column {
+  width: 500px;
+  height: 500px;
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.flex-grid > .column {
+  flex-grow: 1;
+  flex: 1 1 30%;
+  justify-content: center;
+
+}
+
+#firstpic {
+  background-image: url("archive/tlcpic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+#secondpic {
+  background-image: url("archive/rhipic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+#thirdpic {
+  background-image: url("archive/smithpic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+
+#fourthpic {
+  background-image: url("archive/romepic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+
+#fifthpic {
+  background-image: url("archive/playerspic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+
+#sixthpic {
+  background-image: url("archive/tupacpic.png");
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+
+#title {
+  float: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #db315e;
+}
+#header-container {
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #db315e;
+}
+div {
+    display: block;
+}
+.icon-linkedin {
+    background-image: url("images/profilepic.gif");
+    background-size: cover;
+}
+
+
+#icons-container {
+  position: relative;
+  top: 8px;
+  float: right;
+}
+
+.icon {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+  .flex-grid > .column {
+    flex-grow: 1;
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+
+
+}
